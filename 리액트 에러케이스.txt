@@ -34,3 +34,13 @@ alled in a React function component or a custom React Hook function.
 9. 오류는 안나는데 두번 눌러야 실행이 되거나, 내가 원하는 결과가 늦게 나오는 경우 
     - useEffect 를 통해 실행되는 순서를 다시 잡아주어야한다. 
     - Ex03에 가면 예시가 나와 있으니 참조
+10. Module not found  : Error : Can't resolve '~' in '~'
+    - ~~~ 을 설치해야하는데 하지 않은 것
+        ex) react-router-dom , react-bootstrap..등
+        => npm install ~~
+
+    - 설치를 했는데도 오류가 난다? Can't resolve '~' <- 오타 안났는지 확인
+        ex) Can't ~ 'react-router-don' <-오타가
+
+    - 설치 했는지 안했는지 정확하게 확인하고 싶다면?
+    => project의 package.json으로가서 확인
